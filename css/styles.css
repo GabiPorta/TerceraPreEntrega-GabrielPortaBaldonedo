@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media screen and (max-width: 576px) {
+  header {
+    font-size: 10px;
+  }
+}
+header nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  background-color: grey;
+  width: 100%;
+  bottom: 0;
+}
+footer h3 {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media screen and (max-width: 576px) {
+  footer h3 {
+    font-size: 10px;
+  }
+}
+
+main {
+  height: 25px;
+  width: 100%;
+}
+main .title {
+  text-align: center;
+  color: lightskyblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 5rem;
+  text-shadow: 1px 1px 1px lightgray;
+}
+@media screen and (max-width: 576px) {
+  main .title {
+    font-size: 2dvb;
+  }
+}
+main .subtitle {
+  font-size: 3rem;
+  color: lightskyblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  main .subtitle {
+    font-size: 20px;
+    color: lightskyblue;
+  }
+}
+main h2 {
+  font-size: 2rem;
+  color: darkblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media screen and (max-width: 576px) {
+  main h2 {
+    font-size: 20px;
+    color: darkblue;
+  }
+}
+
+section {
+  height: 600px;
+  margin: 5%;
+  display: grid;
+  grid-gap: 10rem;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: 140px 140px;
+  justify-items: center;
+}
+@media screen and (max-width: 576px) {
+  section {
+    height: 320px;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: 80px 80px;
+    grid-gap: 40px;
+  }
+}
+section div {
+  width: 250px;
+  height: 250px;
+  background-color: lightskyblue;
+}
+@media screen and (max-width: 576px) {
+  section div {
+    width: 80px;
+    height: 80px;
+  }
+}
+section img {
+  width: 245px;
+  height: 245px;
+}
+@media screen and (max-width: 576px) {
+  section img {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

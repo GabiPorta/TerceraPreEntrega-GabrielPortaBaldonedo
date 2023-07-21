@@ -1,0 +1,35 @@
+@import 'media-query';
+
+main {
+    height: 25px;
+    width: 100%;
+    .title {
+        text-align: center;
+        color: $primary-color;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5rem;
+        text-shadow: 1px 1px 1px lightgray;
+        @include mobile {
+            font-size: 2dvb;
+        }
+    }
+    .subtitle {
+        font-size: 3rem;
+        color: $primary-color;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        @include mobile {
+            font-size: 20px;
+            color: $primary-color;
+        }
+    }
+    h2 {
+        font-size: 2rem;
+        color: $secondary-color;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        @include mobile {
+            font-size: 20px;
+            color: $secondary-color
+        }
+    }
+}
